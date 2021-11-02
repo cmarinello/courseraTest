@@ -1,0 +1,97 @@
+/*Styling of page*/
+
+#Title{
+	font-family: Arial; 
+	color:black;
+	text-align: center
+}
+.container{
+	background-color: grey;
+	border: 1px solid black;
+	margin: 0.5px;
+	padding: 0px;
+	position: relative;
+}
+.divPadre{
+	position: absolute;
+	margin-left: -5px;
+	margin-right: 5px;
+	border: 1px solid black;
+}
+
+p{
+	padding:5px;
+	margin-top: 30px;
+}
+.Block1{
+	text-align: center;
+	background-color: pink;
+	width: 150px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 30px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	position: absolute;
+  	right:0px;
+}
+.Block2{
+	text-align: center;
+	background-color: red;
+	width: 150px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 30px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	position: absolute;
+  	right:0px;
+}
+.Block3{
+	text-align: center;
+	background-color: #DAA520;
+	width: 150px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	height: 30px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	position: absolute;
+  	right:0px;
+}
+
+#title1{
+  font-size: 20px;
+}
+#title2{
+  font-size: 20px;
+  color: white;
+}
+#title3{
+  font-size: 20px;
+}
+
+/*Responsive Desing*/
+@media (min-width: 992px){
+	.col-lg-3{
+		width: 33%;
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.9px){
+	.col-md-6{
+		width: 50%;
+		margin-right: -3px;
+		float: left;
+	}
+	#sushi{
+		width: 100%;
+	}
+}
+
+
+
