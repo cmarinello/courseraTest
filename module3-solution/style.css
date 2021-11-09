@@ -1,0 +1,85 @@
+/*Styling of page*/
+body{
+	font-family: "Kalam", cursive- !important;
+	overflow: auto;
+}
+#Title{ 
+	color:black;
+	text-align: center
+}
+#header-nav{
+	background-color: grey;
+	width: 100%;
+}
+/*Tile that contains the menu item*/
+.tile{
+	background-color: grey;
+	border: 1px solid black;
+	margin: 0.5px;
+	padding: 0px;
+	margin-top: 15px;
+	position: relative;
+	justify-content: center;
+}
+
+#contenitore{
+	width: 97%;
+}
+
+p{
+	padding:5px;
+	margin-top: 30px;
+}
+
+.titleFood{
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+}
+/*Creation of Hamburger menu*/
+.dropdown-toggle .icon-bars-button{
+  display: inline-block;
+  vertical-align:middle;
+
+}
+.dropdown-toggle .icon-bar {
+  margin-bottom:2px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: black;
+  border-radius: 1px;
+}
+.dropdown-menu{
+	width: 100%;
+	margin-top: 50px !important;
+}
+/*Styling of Hamburger Menu*/
+#dropdownMenu1{
+	float: right;
+	background-color: grey;
+	border: 1px solid black;
+	margin-top: 7px;
+    margin-right: 20px;
+}
+/*Styling of Hamburger Menu when is clicked*/
+.navbar-toggler[aria-expanded="true"] > span > span{
+  background-color: white !important;
+}
+.navbar-toggler[aria-expanded="true"]{
+  border: 1px solid white !important;
+}
+
+.menuitem{
+	text-align: center;
+	border: 1px solid black;
+}
+
+@media (max-width: 767px){
+	.tile{
+		width: 70% !important;
+		margin-left: 15%;
+	}
+}
